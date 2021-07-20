@@ -1,0 +1,262 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.main{
+	width: 100%;
+	height: 100%;
+	font-family: sans-serif;
+	background: rgb(187, 187, 245);
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.card, .login{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	transition: all 0.3s ease;
+}
+.card{
+	width: 350px;
+	height: 500px;
+	box-shadow: 0 0 40px 20px rgba(0, 0, 0, 0.26);
+}
+.card1{
+	width: 350px;
+	height: 500px;
+	box-shadow: 0 0 40px 20px rgba(0, 0, 0, 0.26);
+}
+.card.hide{
+	opacity: 0;
+	pointer-events: none;
+	transform:translate(-50%, -50%) scale(0.9);
+}
+.inner-box{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.front{
+	
+	width: 100%;
+	height: 100%;
+	background-position: center;
+	background-size: cover;
+	background-image:linear-gradient(rgba(0,0,100,0.8),rgba(0,0,100,0.8)),url(w.jpg);
+	padding: 55px;
+	box-sizing: border-box;
+}
+
+.card h2{
+	font-weight: normal;
+	font-size: 24px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.input-box{
+	width: 100%;
+	background: transparent;
+	border: 1px solid #fff;
+	margin: 6px 0;
+	height: 32px;
+	padding: 20 10px;
+	box-sizing: border-box;
+	outline: none;
+	text-align: center;
+	color: #fff;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	font-size: 19px;
+}
+::placeholder{
+	color: #fff;
+	font-size: 15px;
+}
+button{
+	width: 100%;
+	background: transparent;
+	border: 1p solid #fff;
+	margin: 35px 0 10px;
+	height: 32px;
+	font-size: 12px;
+	border-radius: 10px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	box-sizing: border-box;
+	outline: none;
+	color: #fff;
+	cursor: pointer;
+}
+.arrow{
+	position: absolute;
+	left: 220px;		
+}
+.submit-btn{
+	background: darkmagenta;
+	border: none;
+	text-decoration: none;
+	color: white;
+	padding: 10px;
+	padding-left: 45px;
+	padding-right: 43px;
+	border-radius: 10px;
+	margin-left: -10px;
+	font-weight: bold;
+	
+}
+.div{
+	width: 150px;
+	height: 18px;
+	text-align: center;
+	padding: 10px;
+	margin-top: 20px;
+	margin-left: 45px;
+	border-radius: 10px;
+}
+.div1{
+	width: 150px;
+	height: 18px;
+	text-align: center;
+	padding: 10px;
+	margin-top: 20px;
+	margin-left: 45px;
+	border-radius: 10px;
+}
+.submit-btn:hover{
+	padding: 10px;
+	background: white;
+	color: black;
+	padding-left: 45px;
+	padding-right: 43px;
+	border-radius: 10px;
+	margin-left: -10px;
+	font-weight: bold;
+}
+
+.login{
+	width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+    background: rgb(187, 187, 245);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login.hide{
+	opacity: 0;
+	pointer-events: none;
+	transform:translate(-50%, -50%) scale(0.9);
+}
+.login.show{
+	opacity: 1;
+	pointer-events: auto;
+	transform:translate(-50%, -50%) scale(1);
+}
+
+.back{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-position: center;
+	background-size: cover;
+	background-image:linear-gradient(rgba(0,0,100,0.8),rgba(0,0,100,0.8)),url(w.jpg);
+	padding: 55px;
+	box-sizing: border-box;
+	
+}
+.card1 h2{
+	font-weight: normal;
+	font-size: 24px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+
+
+.input-box1{
+	width: 100%;
+	background: transparent;
+	border: 1px solid #fff;
+	margin: 6px 0;
+	height: 32px;
+	padding: 20 10px;
+	box-sizing: border-box;
+	outline: none;
+	text-align: center;
+	color: #fff;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	font-size: 19px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
